@@ -16,6 +16,7 @@ const Home: React.FC = () => {
       <div>{count}</div>
       <button onClick={() => setCount(count + 1)}>+1</button>
       <h3>测试vercel构建</h3>
+      <h3>测试vercel构建2</h3>
     </div>
   );
 };
