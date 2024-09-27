@@ -15,6 +15,7 @@ const Home: React.FC = () => {
       <button onClick={() => router.push("/about")}>去关于页面</button>
       <div>{count}</div>
       <button onClick={() => setCount(count + 1)}>+1</button>
+      <h3>测试vercel构建</h3>
     </div>
   );
 };
